@@ -1,0 +1,24 @@
+{
+  "name": "@codate/gateway",
+  "version": "1.0.0",
+  "description": "Gateway for microservice architecture",
+  "author": "Charles Viegas <charles.viegas@codate.com.br>",
+  "private": false,
+  "license": "UNLICENSED",
+  "keywords": [
+    "microservice architecture",
+    "gateway"
+  ],
+  "scripts": {
+    "build-image": "docker build -t codate/gateway:$npm_package_version .",
+    "publish-image": "docker push codate/gateway:$npm_package_version"
+  },
+  "bugs": {
+    "url": "https://github.com/codate/gateway/issues"
+  },
+  "homepage": "https://github.com/codate/gateway#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codate/gateway.git"
+  }
+}

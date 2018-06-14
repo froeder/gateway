@@ -10,8 +10,8 @@
     "gateway"
   ],
   "scripts": {
-    "build-image": "docker build -t codate/gateway:$npm_package_version .",
-    "publish-image": "docker push codate/gateway:$npm_package_version"
+    "build-image": "docker build -t codate/gateway:latest .",
+    "publish-image": "docker push codate/gateway:latest"
   },
   "bugs": {
     "url": "https://github.com/codate/gateway/issues"
